@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InitialTableViewController.h
 //  TableImageAsynchronous
 //
 //  Created by Jose Antonio Gabriel Massana on 16/10/12.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface InitialTableViewController : UITableViewController
+
+
 
 @end

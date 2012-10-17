@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1D5684162EC63000250C11 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D5683162EC63000250C11 /* black.png */; };
+		7A1D5687162EC6A100250C11 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D5686162EC6A100250C11 /* white.png */; };
+		7A1D5689162EC6D300250C11 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1D5688162EC6D300250C11 /* Placeholder.png */; };
 		7A3AA2DF162D591600879519 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3AA2DE162D591600879519 /* UIKit.framework */; };
 		7A3AA2E1162D591600879519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3AA2E0162D591600879519 /* Foundation.framework */; };
 		7A3AA2E3162D591600879519 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3AA2E2162D591600879519 /* CoreGraphics.framework */; };
@@ -14,10 +17,14 @@
 		7A3AA2EB162D591600879519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AA2EA162D591600879519 /* main.m */; };
 		7A3AA2EF162D591600879519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AA2EE162D591600879519 /* AppDelegate.m */; };
 		7A3AA2F2162D591600879519 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3AA2F0162D591600879519 /* MainStoryboard.storyboard */; };
-		7A3AA2F5162D591600879519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AA2F4162D591600879519 /* ViewController.m */; };
+		7A3AA2FD162D59AD00879519 /* InitialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AA2FC162D59AD00879519 /* InitialTableViewController.m */; };
+		7A3AA303162D5A8B00879519 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A3AA302162D5A8B00879519 /* Countries.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A1D5683162EC63000250C11 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		7A1D5686162EC6A100250C11 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		7A1D5688162EC6D300250C11 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
 		7A3AA2DA162D591600879519 /* TableImageAsynchronous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableImageAsynchronous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3AA2DE162D591600879519 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A3AA2E0162D591600879519 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,8 +36,9 @@
 		7A3AA2ED162D591600879519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A3AA2EE162D591600879519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7A3AA2F1162D591600879519 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7A3AA2F3162D591600879519 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A3AA2F4162D591600879519 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A3AA2FB162D59AD00879519 /* InitialTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialTableViewController.h; sourceTree = "<group>"; };
+		7A3AA2FC162D59AD00879519 /* InitialTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialTableViewController.m; sourceTree = "<group>"; };
+		7A3AA302162D5A8B00879519 /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +88,12 @@
 				7A3AA2ED162D591600879519 /* AppDelegate.h */,
 				7A3AA2EE162D591600879519 /* AppDelegate.m */,
 				7A3AA2F0162D591600879519 /* MainStoryboard.storyboard */,
-				7A3AA2F3162D591600879519 /* ViewController.h */,
-				7A3AA2F4162D591600879519 /* ViewController.m */,
+				7A3AA2FB162D59AD00879519 /* InitialTableViewController.h */,
+				7A3AA2FC162D59AD00879519 /* InitialTableViewController.m */,
+				7A3AA302162D5A8B00879519 /* Countries.plist */,
+				7A1D5683162EC63000250C11 /* black.png */,
+				7A1D5686162EC6A100250C11 /* white.png */,
+				7A1D5688162EC6D300250C11 /* Placeholder.png */,
 				7A3AA2E5162D591600879519 /* Supporting Files */,
 			);
 			path = TableImageAsynchronous;
@@ -151,6 +163,10 @@
 			files = (
 				7A3AA2E9162D591600879519 /* InfoPlist.strings in Resources */,
 				7A3AA2F2162D591600879519 /* MainStoryboard.storyboard in Resources */,
+				7A3AA303162D5A8B00879519 /* Countries.plist in Resources */,
+				7A1D5684162EC63000250C11 /* black.png in Resources */,
+				7A1D5687162EC6A100250C11 /* white.png in Resources */,
+				7A1D5689162EC6D300250C11 /* Placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +179,7 @@
 			files = (
 				7A3AA2EB162D591600879519 /* main.m in Sources */,
 				7A3AA2EF162D591600879519 /* AppDelegate.m in Sources */,
-				7A3AA2F5162D591600879519 /* ViewController.m in Sources */,
+				7A3AA2FD162D59AD00879519 /* InitialTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +295,7 @@
 				7A3AA2FA162D591600879519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
